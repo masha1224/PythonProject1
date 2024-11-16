@@ -1,0 +1,20 @@
+# Środowisko wirtualne (venv)
+.venv/
+env/
+venv/
+
+# Pliki Pythona kompilowane
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pycharm specific files
+.idea/
+
+# Pliki dziennika
+*.log
+
+# Inne pliki systemowe
+.DS_Store
+Thumbs.db
