@@ -1,3 +1,8 @@
+"""
+This is a sample Flask application.
+It demonstrates a basic web server with routes.
+"""
+
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -5,6 +10,8 @@ app = Flask(__name__)
 # Strona główna
 @app.route('/')
 def home():
+    """Display the main page."""
+
     return "Witaj na stronie głównej!"
 
 # /calculate
